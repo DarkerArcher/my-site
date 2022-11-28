@@ -56,12 +56,14 @@ main {
 }
 
 .section-header {
+  text-align: center;
   font-family: 'ubuntubold';
   padding-left: 5px;
   color: #fffffe;
 }
 
 .section-content {
+  display: flex;
   text-align: center;
   padding-left: 5px;
   color: #94a1b2;
