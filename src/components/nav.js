@@ -4,6 +4,11 @@ function Nav() {
     return (
         <nav className="topnav">
         <ul>
+            <a href="mailto: ayootutuloro@gmail.com" target="_blank" rel="noreferrer">
+                <li>
+                    <img src={require("../assets/icons8-gmail-logo-48.png")} alt="Gmail logo" />
+                </li>
+            </a>
             <a href="https://twitter.com/DarkerArcher" target="_blank" rel="noreferrer">
                 <li>
                     <img src={require("../assets/icons8-twitter-48.png")} alt="Twitter Icon" />

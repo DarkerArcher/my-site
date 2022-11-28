@@ -27,7 +27,7 @@ function MainPage() {
                 </div>
                 <div className="section-content">
                     <p>Hi there! My name is Ayo Otutuloro, but some people call me Archer. I am a 23-year-old software engineer in training, with a focus on frontend engineering.
-                        I am proficient with HTML, CSS, and JavaScript, mainly ReactJS. I am open to intern and entry-level roles and am eager to learn. Links to my various socials are in the nav.
+                        I am proficient with HTML, CSS, and JavaScript, mainly ReactJS. I am open to intern and entry-level roles and am eager to learn. Links to contact me are in the nav.
                     </p>
                     <img src={require("../assets/Snapchat-headshot.jpg")} width="200" height="200" alt="Ayo" id="archer-headshot" />
                 </div>
