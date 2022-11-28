@@ -22,7 +22,7 @@ code {
 @font-face {
   font-family: 'ubuntubold';
   src: url('./assets/fonts/ubuntu/ubuntu-b-webfont.woff2') format('woff2'),
-       url('./assets/fonts/ubuntu/ubuntu-b-webfont.woff') format('woff');
+    url('./assets/fonts/ubuntu/ubuntu-b-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -39,10 +39,9 @@ code {
   align-items: center;
   justify-content: center;
   margin: auto;
-  width: 50%;
+  max-width: 500px;
   overflow: hidden;
   padding-left: 0;
-  /* border: 1px solid black; */
 }
 
 .topnav li {
@@ -69,6 +68,13 @@ main {
   color: #94a1b2;
 }
 
+@media (max-width: 800px) {
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .comic-content {
   margin: 10px 0 0 0;
   text-align: center;
@@ -86,7 +92,14 @@ a:hover {
 }
 
 .project-list {
+  display: flex;
   padding: 5px;
+}
+
+@media (max-width: 800px) {
+  .project-list {
+    flex-direction: column;
+  }
 }
 
 .project-list a {
@@ -131,6 +144,7 @@ a:hover {
 
 .project {
   margin: 20px auto;
+  text-align: center;
 }
 
 .project-btn {
@@ -207,12 +221,10 @@ a:hover {
   padding: 10px 0;
 }
 
-
-
-
 a {
   color: #94a1b2;
 }
+
 .attribution {
   margin: 50px auto;
   width: 50%;
