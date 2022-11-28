@@ -1,4 +1,5 @@
 body {
+  background: #16161a;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,210 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ubuntubold';
+  src: url('./assets/fonts/ubuntu/ubuntu-b-webfont.woff2') format('woff2'),
+       url('./assets/fonts/ubuntu/ubuntu-b-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.header {
+  font-family: 'ubuntubold';
+  color: #fffffe;
+  text-align: center;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  overflow: hidden;
+  padding-left: 0;
+  /* border: 1px solid black; */
+}
+
+.topnav li {
+  float: left;
+  display: block;
+  padding: 10px 10px;
+}
+
+main {
+  padding-top: 10px;
+}
+
+.section-header {
+  font-family: 'ubuntubold';
+  padding-left: 5px;
+  color: #fffffe;
+}
+
+.section-content {
+  text-align: center;
+  padding-left: 5px;
+  color: #94a1b2;
+}
+
+.comic-content {
+  margin: 10px 0 0 0;
+  text-align: center;
+  color: #94a1b2;
+}
+
+#archer-headshot {
+  float: right;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.project-list {
+  padding: 5px;
+}
+
+.project-list a {
+  margin: 5px;
+  float: left;
+  display: block;
+  padding: 1em 1.5em;
+  border-radius: 25px;
+  background-color: #7f5af0;
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'ubuntubold';
+  box-shadow: 0 5px 0 #140d0b;
+}
+
+.project-list a:hover {
+  background-color: #72757e;
+}
+
+.project-list a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.project-list link {
+  float: left;
+  display: block;
+  padding: 1em 1.5em;
+  border-radius: 25px;
+  background-color: #7f5af0;
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'ubuntubold';
+  box-shadow: 0 5px 0 #140d0b;
+}
+
+.project {
+  margin: 20px auto;
+}
+
+.project-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #7f5af0;
+  color: #fffffe;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'ubuntubold';
+  font-size: 20px;
+  box-shadow: 0 5px 0 #140d0b;
+}
+
+.project-btn:hover {
+  background-color: #72757e;
+}
+
+.project-btn:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+.comic-gallery {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 20px 30px;
+}
+
+.comic-item {
+  color: #94a1b2;
+  text-align: center;
+  background-color: #16161a;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.comic-item img {
+  border-radius: 30px;
+  padding: 10px 0;
+}
+
+.paginate {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.prev {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #7f5af0;
+  color: #fffffe;
+  margin: 0 5px 0 0;
+}
+
+.next {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #7f5af0;
+  color: #fffffe;
+  margin: 0 0 0 5px;
+}
+
+.home-btn {
+  padding: 0 5px;
+}
+
+.nav {
+  padding: 10px 0;
+}
+
+
+
+
+a {
+  color: #94a1b2;
+}
+.attribution {
+  margin: 50px auto;
+  width: 50%;
+  padding-top: 50px;
+  font-size: 11px;
+  text-align: center;
 }
