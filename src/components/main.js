@@ -26,10 +26,10 @@ function MainPage() {
                     <h2>About Me</h2>
                 </div>
                 <div className="section-content">
-                    <img src={require("../assets/Snapchat-headshot.jpg")} width="200" height="200" alt="Ayo" id="archer-headshot" />
                     <p>Hi there! My name is Ayo Otutuloro, but some people call me Archer. I am a 23-year-old software engineer in training, with a focus on frontend engineering.
-                        I am proficient with HTML, CSS, and JavaScript, mainly ReactJS. Links to my various socials are in the nav.
+                        I am proficient with HTML, CSS, and JavaScript, mainly ReactJS. I am open to intern and entry-level roles and am eager to learn. Links to my various socials are in the nav.
                     </p>
+                    <img src={require("../assets/Snapchat-headshot.jpg")} width="200" height="200" alt="Ayo" id="archer-headshot" />
                 </div>
                 <div className="project">
                     <button onClick={handleNavigate} className="project-btn">Things I've Done.</button>
