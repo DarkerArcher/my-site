@@ -36,6 +36,9 @@ function ProjectLinks() {
                     <a href='https://darkerarcher.github.io/intro-component-with-signup-form-master/' target="_blank" rel="noreferrer">
                         A Signup component with simple authentication
                     </a>
+                    <a href='https://archers-rock-paper-scissors.netlify.app/' target="_blank" rel="noreferrer">
+                        Rock Paper Scissors made with Vue.js
+                    </a>
                 </div>
             </main >
         </>
