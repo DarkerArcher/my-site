@@ -39,6 +39,9 @@ function ProjectLinks() {
                     <a href='https://archers-rock-paper-scissors.netlify.app/' target="_blank" rel="noreferrer">
                         Rock Paper Scissors made with Vue.js
                     </a>
+                    <a href='https://archers-color-flipper.netlify.app/' target="_blank" rel="noreferrer">
+                        A color flipper app
+                    </a>
                 </div>
             </main >
         </>
