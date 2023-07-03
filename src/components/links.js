@@ -42,6 +42,9 @@ function ProjectLinks() {
                     <a href='https://archers-color-flipper.netlify.app/' target="_blank" rel="noreferrer">
                         A color flipper app
                     </a>
+                    <a href='https://archers-chop.netlify.app/' target="_blank" rel="noreferrer">
+                        A URL shortener and QR code generator made with Vue.js
+                    </a>
                 </div>
             </main >
         </>
