@@ -45,6 +45,12 @@ function ProjectLinks() {
                     <a href='https://archers-chop.netlify.app/' target="_blank" rel="noreferrer">
                         A URL shortener and QR code generator made with Vue.js
                     </a>
+                    <a href='https://my-random-advice.netlify.app/' target="_blank" rel="noreferrer">
+                        An advice generator app made with Vue.js
+                    </a>
+                    <a href='https://archers-age-calc.netlify.app/' target="_blank" rel="noreferrer">
+                        An age calculator app made with Vue.js
+                    </a>
                 </div>
             </main >
         </>
